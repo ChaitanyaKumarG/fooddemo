@@ -26,6 +26,7 @@ const App = () => {
 
   return (
     <div className="" style={{height:"100vh"}}>
+      <h1>{React.version}</h1>
       <WelcomeModal />
 <Navbar/>
       <BrowserRouter>
